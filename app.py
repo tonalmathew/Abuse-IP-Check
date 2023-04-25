@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__,template_folder='template')
 
 # API key for AbuseIPDB
-API_KEY = ''  # Replace with your actual API key
+API_KEY = '<ENTER_YOUR_API_KEY>'  # Replace with your actual API key
 
 # Home page route
 @app.route('/', methods=['GET', 'POST'])
